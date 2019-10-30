@@ -25,6 +25,8 @@ a:hover{
 .question{
     font-weight: bold;
     padding: 5px;
+    background: antiquewhite;
+    cursor:pointer;
 }
 
 .answer{
@@ -38,8 +40,18 @@ border-bottom: 1px solid #eee;
 
 .qBlock{
     margin-top:10px;
+    margin-right:80px;
+   
 }
 
 .active{
     background: aliceblue;
+}
+
+.custnav:hover{
+    background : #eee;
+}
+
+.answer{
+    display: none;
 }
