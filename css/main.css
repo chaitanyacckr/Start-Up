@@ -5,7 +5,7 @@ h2.header{
     margin: 0px;
      padding-top: 20px;
     padding-left: 20px;
-     color: white;
+     color: darkgrey;
 }
 
 .custnav{
@@ -25,16 +25,18 @@ a:hover{
 .question{
     font-weight: bold;
     padding: 5px;
-    background: antiquewhite;
+   
     cursor:pointer;
+    border:1px solid #eee;
 }
 
 .answer{
-    margin-left:20px;
-    padding:5px;
-    margin-right: 40px;
+    padding: 5px;
+    padding-right: 40px;
     padding-bottom: 20px;
-border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
+    background: #f5f5f5;
+    border-left: 20px solid bisque;
     
 }
 
@@ -54,4 +56,21 @@ border-bottom: 1px solid #eee;
 
 .answer{
     display: none;
+}
+
+.mainSelect{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.hNav{
+    list-style-type: none;
+}
+
+.hNav > li{
+    display: inline;
 }
